@@ -1,0 +1,25 @@
+.app {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px;
+}
+
+.todo button {
+  margin-left: 5px;
+}
+
+input {
+  padding: 5px;
+  margin: 10px;
+}
+
+button {
+  padding: 5px 10px;
+}
