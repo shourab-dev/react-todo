@@ -1,3 +1,7 @@
+body {
+  font-family: arial;
+  background-color: rgba(144, 238, 144, 0.072);
+}
 .app {
   text-align: center;
   margin-top: 20px;
@@ -6,13 +10,14 @@
 .todo {
   display: flex;
   justify-content: space-between;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   padding: 10px;
   margin: 10px;
 }
 
 .todo button {
   margin-left: 5px;
+  border: none;
 }
 
 input {
@@ -22,4 +27,20 @@ input {
 
 button {
   padding: 5px 10px;
+}
+.app button {
+  border: none;
+  background-color: lightgreen;
+}
+.completeBtn {
+  background-color: yellow !important;
+  color: black;
+}
+.deleteBtn {
+  background-color: red !important;
+  color: white;
+}
+.done {
+  text-decoration: line-through;
+  background-color: rgba(144, 238, 144, 0.285);
 }
